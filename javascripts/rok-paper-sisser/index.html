@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock paper siser</title>
+  </head>
+  <body>
+    <!-- i have to make the rock paper siser game   -->
+    <button class="btnRock">Rock</button><button class="btnpaper">paper</button
+    ><button class="btnSicors">Scisorse</button>
+
+    <script>
+      //! mak the rock paper sisor game
+      const rockbtn = document.querySelector(".btnRock");
+      const paperbtn = document.querySelector(".btnpaper");
+      const sisorbtn = document.querySelector(".btnSicors");
+
+      rockbtn.addEventListener("click", function () {
+        let computermove = 0;
+        computermove = Math.floor(Math.random() * 10);
+        if (computermove <= 3) {
+          alert(
+            "you choose rock computer choose rock game is tie.............. "
+          );
+        } else if (computermove <= 6) {
+          alert(
+            "you choose rock computer choose paper  computer is won you lose...."
+          );
+        } else {
+          alert("you choose rock computer choose sicors you won..............");
+        }
+      });
+
+      paperbtn.addEventListener("click", function () {
+        let computermove = 0;
+        computermove = Math.floor(Math.random() * 10);
+        if (computermove <= 3) {
+          alert("you choose paper computer choose rock you won........ ");
+        } else if (computermove <= 6) {
+          alert("you choose paper computer choose paper  game is tie ...");
+        } else {
+          alert(
+            "you choose paper computer choose sicors you lose computer won ....."
+          );
+        }
+      });
+      sisorbtn.addEventListener("click", function () {
+        let computermove = 0;
+        computermove = Math.floor(Math.random() * 10);
+        if (computermove <= 3) {
+          alert(
+            "you choose Sicores computer choose rock compter won you lose... "
+          );
+        } else if (computermove <= 6) {
+          alert("you choose Sicores  computer choose paper  you won ....");
+        } else {
+          alert("you choose Sicores computer choose sicors game is tie....");
+        }
+      });
+    </script>
+  </body>
+</html>

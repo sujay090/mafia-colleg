@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+
+}
+body{
+
+}
+
+.img-container{
+  margin-inline: 25%;
+  margin-block: 10% ;
+  height: 400px;
+  width: 500px;
+}
+.img{
+  height: 100%; 
+  width: 100%;
+  /* margin-inline: 25%;
+  margin-block: 10% ;  */
+}
+
+.btn{
+  height: 40px;
+  width: 100%;
+  border:none;
+  font-size: large;
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  color: white;
+}

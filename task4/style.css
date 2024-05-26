@@ -1,0 +1,284 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+  display: inline-block;
+  position: absolute;
+  left: 80px;
+  top: 30px;
+  color: #262626;
+  font-size: 35px;
+}
+body{
+  position: relative;
+}
+nav{
+  color: rgb(3, 3, 3);
+  width: 100%;
+  position: relative;
+  height: 80px;
+}
+
+li{
+  display: inline-block;
+}
+
+a{
+  text-decoration: none;
+  color: #7B7B7A;
+  margin-right: 20px;
+  font-size: 20px;
+  
+}
+.username{
+  display: inline-block;
+  position: absolute;
+  right: 80px;
+  top: 30px;
+  background-color: #E7F6FF;
+  padding: 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  color: #03AFFF;
+}
+ul{
+  display: inline-block;
+  position: absolute;
+  top: 35px;
+  left: 550px;
+}
+
+.hero-1{
+  width: 34%;
+  display: inline-block;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+
+.hero-1 h1{
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1px;
+  word-spacing: -5px;
+  color: #4B5B67;
+}
+
+.para{
+  font-size: larger;
+  word-spacing: 2px;
+  color: #a2a2bd;
+  margin-top: 10px;
+  line-height: 25px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+
+.last-h1{
+  color: #03A7FF;
+}
+
+.hero-2{
+  /* width: 60%; */
+  /* height: 100%; */
+  display: inline-block;
+  position: absolute;
+  right: 150px;
+  top: 170px;
+}
+
+.hero-2 img{
+  height: 450px;
+}
+
+.book-service{
+    background-color: #03A7FF;
+    padding: 20px 30px ;
+    color: white;
+    width: 50%;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    margin-top: 30px;
+}
+
+#icon{
+  font-size: 30px;
+  position: absolute;
+  right: 0;
+  top: 20px;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  ul{
+    display:inline-block;
+    top: 35px;
+    left: 210px;
+  }
+  a{
+    text-decoration: none;
+    color: #7B7B7A;
+    margin-right: 20px;
+    font-size: 16px;
+    
+  }
+  .logo{
+    left: 60px;
+    top: 30px;
+    font-size: 25px;
+  }
+  .username{
+    right: 60px;
+    top: 25px;
+    font-size: 15px;
+  }
+  .hero-1{
+    width: 44%;
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 150px;
+  }
+  .hero-1 h1{
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -1px;
+    word-spacing: -5px;
+    color: #4B5B67;
+  }
+  .hero-2 img{
+    height: 390px;
+  }
+  .hero-2{
+    /* width: 60%; */
+    /* height: 100%; */
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 150px;
+  }
+  .book-service{
+    background-color: #03A7FF;
+    padding: 20px 30px ;
+    color: white;
+    width: 87%;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    margin-top: 40px;
+}
+}
+ul{
+  height: 100vh;
+  width: 77%;
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  left : 100px;
+  z-index: 1;
+  color: white;
+  padding-top: 300px;
+  text-align: center;
+  display: none;
+}
+
+@media (max-width:476px) {
+
+  ul{
+    height: 100vh;
+    width: 77%;
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    left : 100px;
+    z-index: 1;
+    color: white;
+    padding-top: 300px;
+    text-align: center;
+    display: none;
+  }
+  li{
+    margin-top: 18px;
+    
+  }
+  ul a{
+    font-size: 28px;
+    color: white;
+    font-weight: 500;
+    margin-left: 46px;
+  }
+ 
+
+
+  .logo{
+    left: 30px;
+    top: 30px;
+    font-size: 30px;
+  }
+  .username{
+    right: 100px;
+    top: 25px;
+    font-size: 15px;
+  }
+  .hero-1{
+    width: 90%;
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 130px;
+  }
+  .hero-2{
+    /* width: 60%; */
+    /* height: 100%; */
+    display: inline-block;
+    position: absolute;
+    right: -15px;
+    top: 530px;
+  }
+  .hero-2 img{
+    height: 430px;
+  }
+  .book-service{
+    background-color: #03A7FF;
+    padding: 30px 30px ;
+    color: white;
+    width: 80%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-top: 40px;
+}
+.para{
+  
+  font-size: 16px;
+  word-spacing: -1px;
+  color: #a2a2bd;
+  margin-top: 10px;
+  line-height: 20px;
+  letter-spacing: -0.70px;
+  font-weight: 500;
+}
+#icon{
+  font-size: 30px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  display: block;
+  color: #4B5B67;
+}
+}

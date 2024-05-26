@@ -1,0 +1,7 @@
+
+  .border-gradient {
+    border-width: 8px; /* Adjust border width as needed */
+    border-style: solid; /* Set border style to solid */
+    border-image: linear-gradient(to right, #ff0000, #00ff00); /* Apply linear gradient */
+    border-image-slice: 1; /* Ensure gradient extends to cover the entire border */
+  }
